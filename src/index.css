@@ -97,3 +97,44 @@
   border-radius: 0px;
   cursor: pointer;
 }
+
+.delete-blog {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 1em auto 0;
+  display: block;
+  width: 150px;
+  font-weight: bold;
+}
+.bars {
+	margin: -1.5em 0 1em;
+	cursor: pointer;
+}
+div span {
+	width: 10px;
+	height: 3px;
+	display: block;
+	background-color: black;
+	border-radius: 8px;
+	margin: 5px 0;
+}
+div span.bar1 {
+	transform: rotate(-60deg);
+}
+div span.bar2 {
+	transform: rotate(60deg);
+}
+.not-found {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
+.not-found a {
+	color: #f1356d;
+	font-size: .9em;
+}
